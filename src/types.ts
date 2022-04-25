@@ -117,7 +117,7 @@ export interface InternalError {
 }
 
 type StaffRank = 'ADMINISTRATOR' | 'GAME_MASTER';
-type PunishmentType = 'BAN' | 'MUTE' | 'KICK' | 'WARNING';
+type PunishmentType = 'ban' | 'mute' | 'kick' | 'warning';
 export type FilterType = 'all' | 'online' | 'offline';
 export type APIResponseTypes =
 	| APINicknameResponse

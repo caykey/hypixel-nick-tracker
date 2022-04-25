@@ -64,7 +64,7 @@ const client = new Client({
 
 **Method:** `GET`
 
-**Required URL Parameters:**
+**URL Parameters:**
 - `key`: String - CactiveNetwork API key (**Required**)
 - `nickname`: String - Lookup nickname (**Required**)
 - `cache`: Boolean - Not fetch new data
@@ -102,7 +102,7 @@ try {
 
 **Method:** `GET`
 
-**Required URL Parameters:**
+**URL Parameters:**
 - `key`: String - CactiveNetwork API key (**Required**)
 - `uuid`: String - Player uuid (**Required**)
 - `cache`: Boolean - Not fetch new data
@@ -150,7 +150,7 @@ try {
 
 **Method:** `GET`
 
-**Required URL Parameters:**
+**URL Parameters:**
 - `key`: String - CactiveNetwork API key (**Required**)
 - `filter`: String - `all`, `online`, or `offline` (**Required**)
 - `cache`: Boolean - Not fetch new data
@@ -187,11 +187,11 @@ try {
 
 **Method:** `GET`
 
-**Required URL Parameters:**
+**URL Parameters:**
 - `key`: String - CactiveNetwork API key (**Required**)
 - `id`: String - Punishment ID (Ban ID) (**Required**)
 - `cache`: Boolean - Not fetch new data
-- 
+
 **JavaScript Implementation:**
 
 ```js
@@ -224,7 +224,7 @@ try {
 
 **Method:** `GET`
 
-**Required URL Parameters:**
+**URL Parameters:**
 - `key`: String - CactiveNetwork API key (**Required**)
 
 **JavaScript Implementation:**
